@@ -2,13 +2,14 @@
 
 namespace MyModuleTest;
 
-use MyModuler\Module;
+use MyModule\Module;
 use PHPUnit_Framework_TestCase;
 use Zend\ServiceManager\Config;
 use Zend\ServiceManager\ServiceManager;
 
 class ModuleTest extends PHPUnit_Framework_TestCase
 {
+
     public function testGetConfigReturnsValidConfig()
     {
         $module = new Module();
