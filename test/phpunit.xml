@@ -1,0 +1,13 @@
+<phpunit bootstrap="bootstrap.php">
+    <testsuite name="MyModuleTest">
+        <directory>MyModuleTest</directory>
+    </testsuite>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../src</directory>
+        </whitelist>
+        <blacklist>
+            <directory>../vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
