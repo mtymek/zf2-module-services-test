@@ -3,11 +3,10 @@
     "description": "Example of ZF2 module services test",
     "keywords": ["zf2", "module", "test", "phpunit"],
     "require": {
-        "zendframework/zend-view": ">=2.3.1"
+        "zendframework/zendframework": ">=2.3.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*",
-        "zendframework/zendframework": ">=2.3.1"
+        "phpunit/phpunit": "3.7.*"
     },
     "license": "BSD 2-Clause",
     "authors": [
@@ -20,9 +19,6 @@
     "autoload": {
         "psr-4": {
             "MyModule\\": "src/"
-        },
-        "psr-0": {
-            "MyModuleTest": "test/"
         }
     }
 }
